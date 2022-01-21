@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html>
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="animate.min.css" rel="stylesheet">
+<link href="jquery.gritter.css" rel="stylesheet" />
+<script src="js/jquery.min.js"></script>
+
+<link href="css/styleCarousel.css" rel="stylesheet">
+<script src="js/Carouseljs.js"></script>
+<!--<base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wanaka-tree.jpg">-->
+<!--<script src="js/TweenMax.min.js"></script>-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Stealth Guarding And VIP Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/stylePageStylings.css" rel="stylesheet">
+    <link href="css/CSS Attachement 1.css" rel="stylesheet">
+    <link href="css/CSS Attachement 4.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+</head>
+<body id="grad3" class="col-xs-12 col-sm-12 col-lg-12 col-xl-12" style="height:3200px; min-width:1500px; position:center;">
+    <!--Navigation Start-->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <div class="container">
+        <div class="row">
+            <!--  <div class="col-xs-12 col-sm-12 col-lg-3 col-xl-3">
+
+            <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+            <script src="js/index.js"></script>-->
+            <!-- <div class="header-container wrapper2">
+                    <div class="container" style="min-height:200px; max-width:200px;">
+                        <h2 class="DecorateHaveALook" style="text-align:center"><label>See:</label></h2>
+                        <header class="header2 headroom" style="min-height:200px; max-width: 50px;">
+                            <ul rel="sam1" style="min-height:200px;">
+                                <li class="divBouncingEffect" style="display:block; float:left; width:Auto; height:50px; padding:5px;">
+                                    <a style="color:white;" class="divBouncingEffect" onclick="Drilldown('1')">Emergency</a>
+                                </li>
+                                <li class="divBouncingEffect" style="display:block; float:left; width:Auto; height:50px; padding:5px;">
+                                    <a style="color:white;" class="divBouncingEffect" onclick="Drilldown('2')">K9 Unit</a>
+                                </li>
+                                <li class="divBouncingEffect" style="display:block; float:left; width:Auto; height:50px; padding:5px;">
+                                    <a style="color:white;" class="divBouncingEffect" onclick="Drilldown('3')">VIP</a>
+                                </li>
+                                <li class="divBouncingEffect" style="display:block; float:left; width:Auto; height:50px; padding:5px;">
+                                    <a style="color:white;" class="divBouncingEffect" onclick="Drilldown('4')">Security</a>
+                                </li>
+                                <li class="divBouncingEffect" style="display:block; float:left; width:Auto; height:50px; padding:5px;">
+                                    <a style="color:white;" class="divBouncingEffect" onclick="Drilldown('5')">Surveilance</a>
+                                </li>
+                            </ul>
+                        </header>
+                    </div>
+                </div>
+            </div>-->
+
+            <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12" id="tv" style="z-index: 1000; margin-top: 40px; height:3100px;">
+                <label>Search Keywords:</label> <input id="TextToSearch" type="text" style="color:black;" />
+                <input id="clickMe" type="button" value="Search" onclick="ApplyHighlight();" style="color:darkorange !important; font-family: Audiowide Arial 20px;  background-color: #494949; " />
+                <script type="text/javascript" src="js/hilitor.js"></script>
+                <script type="text/javascript">
+
+                    function ApplyHighlight() {
+                        var myHilitor = new Hilitor("tv"); // id of the element to parse
+                        myHilitor.apply(document.getElementById("TextToSearch").value);                      
+                    }
+                </script>
+                <div id="one" style="text-align:center; float:none;">
+                    <div width="400" height="300" class="divServices" id="divService1">
+                        <h3><label>Guards</label></h3>
+
+                        <p id="pDrillDown1" class="Paragraphs">
+                            We provide guards services for those in need of continues protection.<br />
+                            Guard Placement as requested, with 24 hours, 3 days, 3 Nights, 3 Days off.
+                            Training and qualification levels for employees of guards vary from D Grade Rank - A Grade Rank, the guards movements are monitored as well as vehicles on site.
+                            The guards survey the area and Patrol it. These guards can search your staf or your vehicles entering the premises through access control and report writing.
+                        </p><label id="lbl1" onclick="Drilldown('1')" style="color: lightgray">(Read more)</label>
+
+                    </div>
+                    <div id="carousel">
+                        <figure id="spinner">
+                            <img src="CarouselImages/Guards/Guards1.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Guards/Guards2.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Guards/Guards3.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Guards/Guards4.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Guards/Guards5.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Guards/Guards6.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Guards/Guards7.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Guards/Guards8.jpeg" class="CarouselImage" />
+                        </figure>
+                    </div>
+                    <span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+                    <span style="float: right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+                </div>
+
+                <div id="two" style="text-align:center; float:none;">
+                    <div width="400" height="300" class="divServices" id="divService2">
+                        <h3><label>Emergency Services</label></h3>
+
+                        <p id="pDrillDown2" class="Paragraphs">
+                            We provide emrgency services for those in need of immediate attention.<br />
+                            On site or drives the patient to the closest hospital. Training and qualification levels for members and employees of emergency medical services vary widely throughout the world. As a first resort, the EMS provide treatment on the scene to those in need of urgent medical care.
+                        </p><label id="lbl2" onclick="Drilldown('2')" style="color: lightgray">(Read more)</label>
+
+                    </div>
+                    <div id="carousel">
+                        <figure id="spinner2">
+                            <img src="CarouselImages/Ambulances/Ambulance1.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Ambulances/Ambulance2.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Ambulances/Ambulance3.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Ambulances/Ambulance4.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Ambulances/Ambulance5.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Ambulances/Ambulance6.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Ambulances/Ambulance7.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Ambulances/Ambulance8.jpeg" class="CarouselImage" />
+                        </figure>
+                    </div>
+                    <span style="float:left" class="ss-icon" onclick="galleryspin2('-')">&lt;</span>
+                    <span style="float: right" class="ss-icon" onclick="galleryspin2('')">&gt;</span>
+                </div>
+
+                <!--Director Start-->
+                <div id="three" class="section; col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+                    <div width="400" height="300" class="divServices" id="divService3">
+                        <h3><label>We have a K9 unit</label></h3>
+
+                        <p id="pDrillDown3" class="Paragraphs">
+                            We have dogs that we use to do raids with.
+                            These dogs are highly trained at an academy and are then integrated with our staff.
+                            These attack dogs can also defend a person if needed.
+                        </p><label id="lbl3" onclick="Drilldown('3')" style="color: lightgray">(Read more)</label>
+
+                    </div>
+                    <div id="carousel">
+                        <figure id="spinner3">
+                            <img src="CarouselImages/K9Unit/K9Unit1.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/K9Unit/K9Unit2.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/K9Unit/K9Unit3.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/K9Unit/K9Unit4.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/K9Unit/K9Unit5.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/K9Unit/K9Unit6.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/K9Unit/K9Unit4.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/K9Unit/K9Unit3.jpeg" class="CarouselImage" />
+                        </figure>
+                    </div>
+                    <span style="float:left" class="ss-icon" onclick="galleryspin3('-')">&lt;</span>
+                    <span style="float:right" class="ss-icon" onclick="galleryspin3('')">&gt;</span>
+                </div>
+
+
+                <div id="four" class="section; col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+                    <div width="400" height="300" class="divServices" id="divService4">
+                        <h3><label>Vip Protection</label></h3>
+
+                        <p id="pDrillDown4" class="Paragraphs">
+                            We protect people with our VIP services.
+                            Our requested amount of guards are stationed around or alongside the VIP client as requested
+                            and then defend this person for the alloted amount of time.
+                        </p><label id="lbl4" onclick="Drilldown('4')" style="color: lightgray">(Read more)</label>
+
+                    </div>
+                    <div id="carousel">
+                        <figure id="spinner4">
+                            <img src="CarouselImages/VipProtection/VIPProtection1.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/VipProtection/VIPProtection2.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/VipProtection/VIPProtection3.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/VipProtection/VIPProtection4.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/VipProtection/VIPProtection5.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/VipProtection/VIPProtection6.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/VipProtection/VIPProtection7.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/VipProtection/VIPProtection4.jpeg" class="CarouselImage" />
+                        </figure>
+                    </div>
+                    <span style="float:left" class="ss-icon" onclick="galleryspin4('-')">&lt;</span>
+                    <span style="float:right" class="ss-icon" onclick="galleryspin4('')">&gt;</span>
+                </div>
+
+                <div id="five" class="section; col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+                    <div width="400" height="300" class="divServices" id="divService5">
+                        <h3><label>Security Doors</label></h3>
+                        <div id="divExplanation5">
+                            <p id="pDrillDown5" class="Paragraphs">
+                                We have security door installation services.
+                                Our team installs security gates from our selection at the allocated locations as requested
+                                and then will help keep your business safe during the hard times.
+                            </p><label id="lbl5" onclick="Drilldown('5')" style="color: lightgray">(Read more)</label>
+                        </div>
+                    </div>
+                    <div id="carousel">
+                        <figure id="spinner5">
+                            <img src="CarouselImages/RevolvingDoors/Security1.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/RevolvingDoors/security2.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/RevolvingDoors/Security1.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/RevolvingDoors/security4.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/RevolvingDoors/Security1.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/RevolvingDoors/security4.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/RevolvingDoors/security2.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/RevolvingDoors/security4.jpeg" class="CarouselImage" />
+                        </figure>
+                    </div>
+                    <span style="float:left" class="ss-icon" onclick="galleryspin5('-')">&lt;</span>
+                    <span style="float:right" class="ss-icon" onclick="galleryspin5('')">&gt;</span>
+
+                </div>
+
+                <div id="six" class="section; col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+                    <div width="400" height="300" class="divServices" id="divService6">
+                        <h3><label>Alarm Systems</label></h3>
+                        <div id="divExplanation6">
+                            <p id="pDrillDown6" class="Paragraphs">
+                                We install alarm systems for personal dwellings and company grounds.
+                                we send armed response and emergency services when alarms trigger.
+                                Silent panic alarms can be installed all over your business as well as remote control activation.
+                            </p><label id="lbl6" onclick="Drilldown('6')" style="color: lightgray">(Read more)</label>
+                        </div>
+                    </div>
+                    <div id="carousel">
+                        <figure id="spinner6">
+                            <img src="CarouselImages/Alarms/Alarms1.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Alarms/Alarms2.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Alarms/Alarms3.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Alarms/Alarms4.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Alarms/Alarms5.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Alarms/Alarms6.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Alarms/Alarms7.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Alarms/Alarms8.jpeg" class="CarouselImage" />
+                        </figure>
+                    </div>
+                    <span style="float:left" class="ss-icon" onclick="galleryspin6('-')">&lt;</span>
+                    <span style="float:right" class="ss-icon" onclick="galleryspin6('')">&gt;</span>
+
+                </div>
+
+
+                <div id="seven" class="section; col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+                    <div width="400" height="300" class="divServices" id="divService7">
+                        <h3><label>Surveilance Services</label></h3>
+                        <div id="divExplanation7">
+                            <p id="pDrillDown7" class="Paragraphs">
+                                We protect people with our Surveilance services.
+                                Our requested amount of cameras are stationed around or alongside the perimiter based on where the client requested
+                                and then information is monitored and reports are printed monthly per request.
+                            </p><label id="lbl7" onclick="Drilldown('7')" style="color: lightgray">(Read more)</label>
+                        </div>
+                    </div>
+                    <div id="carousel">
+                        <figure id="spinner7">
+                            <img src="CarouselImages/Cameras/camera1.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Cameras/camera2.webp" class="CarouselImage" />
+                            <img src="CarouselImages/Cameras/Camera3.jpg" class="CarouselImage" />
+                            <img src="CarouselImages/Cameras/camera4.jpg" class="CarouselImage" />
+                            <img src="CarouselImages/Cameras/camera5.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Cameras/camera6.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Cameras/camera7.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/Cameras/camera8.jpeg" class="CarouselImage" />
+                        </figure>
+                    </div>
+                    <span style="float:left" class="ss-icon" onclick="galleryspin7('-')">&lt;</span>
+                    <span style="float:right" class="ss-icon" onclick="galleryspin7('')">&gt;</span>
+                </div>
+
+                <div id="eight" class="section; col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+                    <div width="400" height="300" class="divServices" id="divService8">
+                        <h3><label>Events Management</label></h3>
+                        <div id="divExplanation8">
+                            <p id="pDrillDown8" class="Paragraphs">
+                                We have trained personnel that will come and assess your event that you are planning and during its active periods and will inspect the safety of the premises and evernt and guards as well as medics can be placed at designated areas.
+                            </p><label id="lbl8" onclick="Drilldown('8')" style="color: lightgray">(Read more)</label>
+                        </div>
+                    </div>
+                    <div id="carousel">
+                        <figure id="spinner8">
+                            <img src="CarouselImages/EventsManagement/Events1.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/EventsManagement/Events2.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/EventsManagement/Events3.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/EventsManagement/Events4.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/EventsManagement/Events5.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/EventsManagement/Events6.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/EventsManagement/Events7.jpeg" class="CarouselImage" />
+                            <img src="CarouselImages/EventsManagement/Events8.jpeg" class="CarouselImage" />
+                        </figure>
+                    </div>
+                    <span style="float:left" class="ss-icon" onclick="galleryspin8('-')">&lt;</span>
+                    <span style="float:right" class="ss-icon" onclick="galleryspin8('')">&gt;</span>
+
+                </div>
+
+                <!--<div id="seven" class="section; col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+        <div width="400" height="300" class="divServices" id="divService7">
+            <h3><label>Surveilance Services</label></h3>
+
+            <p id="pDrillDown7" class="Paragraphs">
+                We protect people with our Surveilance services.
+                Our requested amount of cameras are stationed around or alongside the perimiter based on where the client requested
+                and then information is monitored and reports are printed monthly per request.
+            </p><label id="lbl7" onclick="Drilldown('7')" style="color: lightgray">(Read more)</label>
+
+        </div>
+        <div id="carousel">
+            <figure id="spinner7">
+                <img src="CarouselImages/Cameras/camera1.jpeg" class="CarouselImage" />
+                <img src="CarouselImages/Cameras/camera2.webp" class="CarouselImage" />
+                <img src="CarouselImages/Cameras/Camera3.jpg" class="CarouselImage" />
+                <img src="CarouselImages/Cameras/camera4.jpg" class="CarouselImage" />
+                <img src="CarouselImages/Cameras/camera5.jpeg" class="CarouselImage" />
+                <img src="CarouselImages/Cameras/camera6.jpeg" class="CarouselImage" />
+                <img src="CarouselImages/Cameras/camera7.jpeg" class="CarouselImage" />
+                <img src="CarouselImages/Cameras/camera8.jpeg" class="CarouselImage" />
+            </figure>
+        </div>
+        <span style="float:left" class="ss-icon" onclick="galleryspin7('-')">&lt;</span>
+        <span style="float:right" class="ss-icon" onclick="galleryspin7('')">&gt;</span>
+    </div>-->
+                <!--Scroll Down List Info End-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
