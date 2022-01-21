@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="animate.min.css" rel="stylesheet">
+<link href="jquery.gritter.css" rel="stylesheet" />
+<script src="js/jquery.min.js"></script>
+
+<link href="css/styleCarousel.css" rel="stylesheet">
+<script src="js/Carouseljs.js"></script>
+<!--<base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wanaka-tree.jpg">-->
+<!--<script src="js/TweenMax.min.js"></script>-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" style="background-repeat: repeat; background-color: black; background-size:100%; height:auto;">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Stealth Guarding And VIP Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/stylePageStylings.css" rel="stylesheet">
+    <link href="css/CSS Attachement 1.css" rel="stylesheet">
+    <link href="css/CSS Attachement 4.css" rel="stylesheet">
+    <link href="css/styleFaqIcons.css" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+</head>
+<body id="grad1" class="col-xs-12 col-sm-12 col-lg-12 col-xl-12" style="max-width:1500px; height:auto !important; position:center; background-repeat:repeat; background-color:black;">
+    <!--Navigation Start-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--<p>
+        download and apply this link https://codepen.io/chenius/pen/zLppVZ
+    </p>-->
+    <div class="container" style="background-repeat: repeat; background-color: black; height:auto;">
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-lg-4 col-xl-4">
+                <header>
+                    <div class="tab">
+                        <div class="" id="">
+                            <div class="NavBarOnly col-xs-4 col-sm-4 col-lg-4 col-xl-4" style="opacity:0; max-width:400px;">.</div> <!--CSS adds a transparent black border around the nav pannel-->
+
+                            <ul style="max-width:400px; cursor: pointer !important">
+                                <li class="divBouncingEffect tablinks" style="cursor: pointer !important; font-family: Audiowide; color:snow; position: relative; border: groove;  display:block; float:left; width:100%; height:50px; padding:5px;"><a style="position: relative;  margin: 0;top: 0;top: 25%;-ms-transform: translate(-50%,-50%);transform: translate(-50%, -50%);text-align: center;" onclick="openCity(event, 'Home')">Home <div style="padding:5px;" class="fa fa-home"></div> </a></li>
+                                <li class="divBouncingEffect tablinks" style="cursor: pointer !important; font-family: Audiowide; color:snow; position: relative; border: groove; display:block; float:left; width:100%; height:50px; padding:5px;"><a style="position: relative;  margin: 0;top: 0;top: 25%;-ms-transform: translate(-50%,-50%);transform: translate(-50%, -50%);text-align: center;" onclick="openCity(event, 'Directors')">Directors<div style="padding:5px;" class="fa fa-suitcase"></div></a></li>
+                                <li class="divBouncingEffect tablinks" style="cursor: pointer !important; font-family: Audiowide; color:snow; position: relative; border: groove;display:block; float:left; width:100%; height:50px; padding:5px;"><a style="position: relative;  margin: 0;top: 0;top: 25%;-ms-transform: translate(-50%,-50%);transform: translate(-50%, -50%);text-align: center;" onclick="openCity(event, 'Services')">Services<div style="padding:5px;" class="fa fa-space-shuttle"></div></a></li>
+                                <li class="divBouncingEffect tablinks" style="cursor: pointer !important; font-family: Audiowide; color:snow; position: relative; border: groove;display:block; float:left; width:100%; height:50px; padding:5px;"><a style="position: relative;  margin: 0;top: 0;top: 25%;-ms-transform: translate(-50%,-50%);transform: translate(-50%, -50%);text-align: center;" onclick="openCity(event, 'About')">About<div style="padding:5px;" class="fa fa-info-circle"></div></a></li>
+                                <li class="divBouncingEffect tablinks" style="cursor: pointer !important; font-family: Audiowide; color:snow; position: relative; border: groove;display:block; float:left; width:100%; height:50px; padding:5px;"><a style="position: relative;  margin: 0;top: 0;top: 25%;-ms-transform: translate(-50%,-50%);transform: translate(-50%, -50%);text-align: center;" onclick="openCity(event, 'Testimonials')">Testimonials<div style="padding:5px;" class="fa fa-info-circle"></div></a></li>
+                                <li class="divBouncingEffect tablinks" style="cursor: pointer !important; font-family: Audiowide; color:snow; position: relative; border: groove;display:block; float:left; width:100%; height:50px; padding:5px;">
+                                    <a style="margin: 0; top: 0;
+        top: 25%;
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        position: relative;
+" onclick="openCity(event, 'Contact Us')">Contact Us<div style="padding:5px;" class="fa fa-credit-card"></div></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <style>
+                .fa-home {
+                    cursor: pointer;
+                }
+
+                .fa-suitcase {
+                    cursor: pointer;
+                }
+
+                .fa-space-shuttle {
+                    cursor: pointer;
+                }
+
+                .fa-info-circle {
+                    cursor: pointer;
+                }
+
+                .fa-credit-card {
+                    cursor: pointer;
+                }
+            </style>
+            <!--Navigation Bar End id=tvTitle-->
+            <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+            <script src="js/index.js"></script>
+
+
+            <!--Badge Start-->
+            <div class="col-xs-4 col-sm-4 col-lg-4 col-xl-4" style="        padding-top: 20px;
+        padding-bottom: 10px;
+        z-index: 1000;
+        text-align: center;">
+                <div style=" z-index: 1000; text-align:center; max-width:240px;">
+                    <img style="max-width:240px; text-align:center; z-index: 1000;" id="imgBadge" src="Pitbull Badge Neon.png" alt="Picture of a Company Logo" />
+                </div>
+            </div>
+
+
+            <!--Badge End-->
+
+            <div class="col-xs-4 col-sm-4 col-lg-4 col-xl-4" style="max-width:240px; margin-bottom:30px;">
+                <div id="" style="height: 270px;">
+                    <!--Sale Pamflet Picture Start-->
+
+
+                    <img style="max-width:250px; min-width:240px; width:240px; text-align:center; z-index: 1000;" id="imgBadge" src="Sale.png" alt="Picture of the Covid-19 Sale flyer" />
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+
+    <div class="row" style="max-height:270px !important; width: 1140px !important; padding-top: 20px; margin-top: 20px;">
+
+                      <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12" style="        padding-top: 20px;
+        padding-bottom: 10px;
+        z-index: 1000;
+        text-align: center; width:100%;">
+                          </div>  </div>
+
+        <div class="container" style="padding-top: 10px !important; margin-top:10px !important;">
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-lg-3 col-xl-3" style="width:100%; max-height:50px !important;"></div>
+                                <div class="col-xs-6 col-sm-6 col-lg-6 col-xl-6" style="width:350px !important; max-height:50px !important;">
+                                    <div style=" z-index: 1000; text-align:center; max-width:500px; width:100%; min-width:350px;">
+
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-lg-3 col-xl-3" style="width:100%; max-height:50px !important;"></div>
+                            </div>
+                        </div>
+    <!--Sale Pamflet Picture End-->
+    <!--<p class="Paragraphs" style="border-bottom: none !important; margin: 30px 30px 30px 30px; top: 0; font-family: Audiowide; font-size: 18px; min-height: 270px;">
+        We strive for customer response time as our primary focus with
+        technical services through informed decision making and rapid attendance to
+        any situation.
+    </p>-->
+    <!--Navigation End-->
+    <!--top: 50%; left: 50%; -ms-transform: translate(-50%,-50%); transform: translate(-50%, -50%); text-align: center;
+                top: 0;
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+                    padding-right: 10px;
+                    max-height: 270px;
+                    min-height: 270px;
+                    z-index: 1000;
+                    width:auto;
+                    position:relative;
+            ">
+                            <div style="max-height:400px; ">
+
+                                <div id="divHeadingName">
+                                    <!--<h1 style="text-align: center">
+                                                    <label style="
+                                    border-left: 2px groove darkgray;
+                                    border-bottom: 2px groove darkgray;
+                                    border-right: 5px groove lightgray;
+                                    border-top: 5px groove lightgray;">STEALTH</label>
+                                                </h1>
+
+
+        </div>
+    </div>
+
+    </div> -->
+    <!--<div class="col-sm-offset-12 col-xs-offset-12 col-lg-offset-4 col-xl-offset-4" style="        padding-top: 20px;
+            padding-bottom: 10px;
+            z-index: 1000;
+    ">
+                        <div id="one" style="">-->
+    <!--<div width="400" height="300" class="divServices" id="divService1">-->
+    <!--<h3><label>Stealth Services</label></h3>-->
+    <!--<p id="pDrillDown1" class="Paragraphs">
+        We provide emrgency services for those in need of immediate attention.<br />
+        On site or drives the patient to the closest hospital. Training and qualification levels for members and employees of emergency medical services vary widely throughout the world. As a first resort, the EMS provide treatment on the scene to those in need of urgent medical care.
+    </p><label id="lbl5" onclick="Drilldown('1')" style="color: lightgray">(Read more)</label>-->
+    <!--</div>-->
+    <!---->
+    <!--                                               Carousel
+
+        <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12" style="padding-top:100px; padding-bottom:10px; z-index: 1000; text-align:center;">
+        <div id="carousel" style="width: auto; text-align: center;">
+            <figure id="spinner">
+                <img src="CarouselImages/Ambulances/Ambulance1.jpeg" class="CarouselImage" />
+                <img src="CarouselImages/K9Unit/K9Unit6.jpeg" class="CarouselImage" />
+                <img src="CarouselImages/VipProtection/VIPProtection5.jpeg" class="CarouselImage" />
+                <img src="CarouselImages/RevolvingDoors/security4.jpeg" class="CarouselImage" />
+                <img src="CarouselImages/Cameras/camera1.jpeg" class="CarouselImage" />
+                <img src="CarouselImages/Ambulances/Ambulance4.jpeg" class="CarouselImage" />
+                <img src="CarouselImages/K9Unit/K9Unit1.jpeg" class="CarouselImage" />
+                <img src="CarouselImages/VipProtection/VIPProtection6.jpeg" class="CarouselImage" />
+            </figure>
+        </div>
+        <span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+        <span style="float: right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+        </div>
+    </div>-->
+
+    <div id="Carousel">
+        <iframe style="min-width: 1120px;
+        height: auto;
+        min-height: 500px;
+        margin-top: 60px;
+        padding-top: 60px;
+        border-top: -3px dashed;
+        height: 500px;
+        z-index: 1000;
+        background: transparent;" src="CarouselIndex1.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" left="0">
+        </iframe>
+    </div>
+
+
+    <!--</div>
+    </div>-->
+    <!-- Tab content -->
+    <!--<div class="row">
+
+    <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12" id="" style="width:auto;">-->
+    <div id="Home" class="tabcontent">
+        <iframe style="        min-width: 1500px;
+        max-width: 1500px;
+        height: auto;
+        min-height: 950px;
+        margin-top: 6.5px;
+        padding-top: 6.5px;
+        border-top: -3px dashed;
+        height: auto;
+        z-index: 1000;
+        background: transparent;" src="Home.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" left="0">
+        </iframe>
+    </div>
+
+    <div id="Directors" class="tabcontent">
+        <iframe style="        min-width: 1500px;
+        max-width: 1500px;
+        height: 1650px;
+        min-height: 1650px;
+        margin-top: 6.5px;
+        padding-top: 6.5px;
+        border-top: -3px dashed;
+        height: auto;
+        background: transparent;" src="Directors.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0">
+        </iframe>
+    </div>
+
+    <div id="Services" class="tabcontent">
+        <iframe style="min-width: 1500px; height: 100%; min-height: 3150px; margin-top: 0px; padding-top: 0px; border-top: -3px dashed; height: auto;
+background: transparent;" src="Services.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0">
+        </iframe>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <iframe style="        min-width: 1500px;
+        height: auto;
+        min-height: 1150px;
+        margin-top: 6.5px;
+        padding-top: 6.5px;
+        border-top: -3px dashed;
+        height: auto;
+        background: transparent;" src="About.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" left="0">
+        </iframe>
+    </div>
+
+    <div id="Contact Us" class="tabcontent">
+        <iframe style="        min-width: 1500px;
+        height: auto;
+        min-height: 1550px;
+        margin-top: 6.5px;
+        padding-top: 6.5px;
+        border-top: -3px dashed;
+        height: auto;
+        background: transparent;" src="ContactUS.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0">
+        </iframe>
+    </div>
+
+    <div id="Testimonials" class="tabcontent">
+        <iframe style="min-width: 1500px; height: 100%; min-height: 1600px; margin-top: 6.5px; padding-top: 6.5px; border-top: -3px dashed; height: auto;
+background: transparent;" src="Testimonials-.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0">
+        </iframe>
+    </div>
+
+
+    <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12" id="" style=" z-index: 1000;">
+
+        <!--Foot Start-->
+        <footer class="footer;" style="">
+            <div class="app-download">
+                <div id="IconsHorizontal" style="float:left; display:block;">
+
+                    <!--<a href="https://www.facebook.com/stealthguarding/" class="fa fa-twitter"></a>
+                    <a href="https://www.facebook.com/stealthguarding/" class="fa fa-instagram"></a>-->
+                    <a href="https://www.reddit.com/r/domesticviolence/comments/5y4i6r/safety_and_security_tips_for_domestic_violence/" class="fa fa-reddit"></a>
+                    <a href="https://www.youtube.com/watch?v=sYS72a1LF1E" class="fa fa-youtube"></a>
+                    <a href="https://www.security.co.za/news" class="fa fa-google"></a>
+                    <a href="https://www.facebook.com/stealthguarding/" class="fa fa-facebook"></a>
+                    <style>
+                        a {
+                            cursor: pointer !important;
+                            color: lightblue;
+                            font-weight: bold;
+                            font-family: audiowide;
+                            font-size: 16px !important;
+                        }
+
+                            a:hover {
+                                color: turquoise !important;
+                            }
+                    </style>
+                    <a style="" href="https://www.saps.gov.za/"><img style="max-width:80px; min-width:80px; width:80px; text-align:center; z-index: 1000;" id="imgBadge" src="SAPD.jpg" alt="Picture of the SAPD Badge" /></a>
+                    <a style="border-right:groove 5px !important; border-right-color:transparent !important; font-size:26px !important;" href="FAQ.html">FAQ</a>
+
+                    <a style="border-right:groove 5px !important; border-right-color:transparent !important; font-size:26px !important;" href="lanseria.rapid.response.co.za/index.html">Lanseria Rapid Response</a>
+                    <a style="border-right:groove 5px !important; border-right-color:transparent !important; font-size:26px !important;" href="https://stealthwireless.github.io/">Stealth Group</a>
+                    <!--<a style="border-right:groove 5px !important; border-right-color:transparent !important; font-size:26px !important;" href="https://stealthgroup.co.za/stealthwireless.co.za">Stealth Wireless</a>-->
+                    <a style="border-right:groove 5px !important; border-right-color:transparent !important; font-size:26px !important;" href="https://brendonborg.github.io/">Borg Telecom</a>
+                </div>
+                <label style="color:snow; font-size:26px !important;" id="first-title">�2020 All Rights Reserved. Stealth Guarding & VIP Services</label>
+                <h4 style="cursor: pointer !important"><label style="cursor: pointer !important" id="second-title" onclick="document.getElementsByTagName('nav')[0].className = 'menu menu_active'">Privacy and Terms</label></h4>
+            </div>
+
+            <nav style="position:center; z-index:1000; border-radius: 20px 20px 20px 20px;" class="menu">
+                <h4 style="padding-bottom: 6.2px;" onclick="document.getElementsByTagName('nav')[0].className = 'menu'">CLOSE</h4>
+
+                <iframe style="margin-top:6.5px; padding-top:6.5px; border-top: -3px dashed; min-height:500px; max-height:1000px; height:100%; width:100%; min-width:300px; height:auto; background:transparent;" src="Terms and Conditions.html" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0">
+                </iframe>
+
+            </nav>
+
+            <div class="container" style="padding-top: 10px !important; margin-top:10px !important; z-index: 1000; width:1100px; height:118px; text-align:center !important;">
+                <div class="row" style="max-height:270px !important; text-align:center !important;">
+
+                    <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12" style="width:100%; min-width:400px !important; max-height:118px !important; text-align:center !important;">
+                        <a href="https://www.sacoronavirus.co.za" class="" style="color: red; border:10px 10px 10px 10px outset; border-bottom: none !important; font-family: Audiowide; font-size: 28px; min-height: 70px; width:350px; text-align:center !important;">
+                            <div class="" style="padding-top: 20px; padding-bottom: 10px; z-index: 1000; text-align: center;">
+                                <div style="padding-left:300px; z-index: 1000; text-align:center; max-width:400px; padding-left:-100px;">
+                                    <img style="max-width:400px; text-align:center; z-index: 1000;" id="imgBadge" src="Covid-19.png" alt="Picture of a Company Logo" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <!--Footer End-->
+    </div>
+</body>
+</html>
